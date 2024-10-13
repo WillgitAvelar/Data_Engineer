@@ -1,0 +1,228 @@
+Roadmap Engenharia de Dados 2024
+Um guia pessoal
+
+Matheus Domingos 
+Jan 21, 2024
+
+Engenharia de dados está em alta há algum tempo e decidiu por se aventurar nessa área.
+Se deparou com uma infinidade de linguagens, ferramentas, frameworks, plataformas e mais, além do bombardeio de informações disponíveis na internet. 
+É, engenharia de dados não é a profissão desse ecossistema com menor porta de entrada.
+
+Este roadmap pode te ajudar! É mais pessoal, sustentado pela minha experiência e visão de mercado.
+
+Listei fontes gratuitas de estudo e em sua maioria em português, bem como exemplos open-source em cada tópico.
+
+Saiba que as ferramentas em si importam menos que os conceitos, portanto escolha as que mais se adequarem a sua realidade, tanto financeira quanto profissional. 
+Te prometo que embora exista uma inevitável curva de aprendizado, será significativamente menor em uma migração de plataforma do que foi para aprender pela primeira vez.
+
+
+
+😟Fundamentos 
+
+Minha orientação principal é que passe obrigatoriamente pelos fundamentos aqui sugeridos, mas não se aprofunde demais. 
+Deixe que a necessidade do dia a dia e de outras ferramentas motivem estudos mais direcionados (se apresentarão, não se preocupe).
+
+🐍Python 
+
+Trata-se da linguagem de programação mais popular para a área, é dita como de alto nível, e possui inúmeras ferramentas que vão lhe auxiliar nessa jornada. 
+Se é novo(a) na área de computação, comece por aqui.
+
+🕐Lembre-se, terá o que estudar sobre Python para sempre, avance apenas e até ter cobrido tópicos básicos e se sentir confortável com os paradigmas de programação 
+mais comuns e recursos fundamentais, tais quais variáveis, estruturas condicionais, loops, coleções, etc.
+
+
+Onde estudar
+
+Ada Tech: https://comunidade.ada.tech/
+Curso Lógica Pura, 
+Introdução ao Python .>> https://comunidade.ada.tech/cursos/ad77ffa3-6dde-4efb-9e0d-3b14e60b097b
+
+Microsoft Learn: Python para Iniciantes - https://learn.microsoft.com/pt-br/training/paths/beginner-python/
+
+Data Science Academy: https://www.datascienceacademy.com.br/course/fundamentos-de-linguagem-python-para-analise-de-dados-e-data-science
+
+
+
+
+Sobre o ambiente, embora alguns venham a ser mencionados nos cursos listados, recomendo que instale Anaconda para facilitar configurações iniciais e utilize VSCode 
+como editor de códigos pela sua versatilidade e relevância no mercado.
+
+
+
+🔡 SQL e Banco de Dados
+
+SQL está aí desde a década de 70. Há muito se fala sobre seu fim, mas essa linguagem declarativa definitivamente sobreviveu ao teste do tempo: 
+fácil de utilizar e dominada por diversos especialistas da área, fez com que frameworks como MapReduce e Spark encontrassem uma forma de serem manipulados por ela.
+
+Coloquei aqui não apenas SQL, mas banco de dados também, pois acredito que ao menos conceitualmente é importante que conheça. 
+Em outras palavras, não apenas aprenda a manipular dados neles contidos, como também conheça suas estruturas e objetos.
+
+Comece pelos relacionais, entenda com clareza o que são tabelas, bancos, índices e etc; conforme sentir necessidade, explore os não relacionais que são um mundo a parte.
+
+Onde estudar
+
+Ada Tech: Banco de Dados. >> https://comunidade.ada.tech/cursos/e82b3eb3-e58e-4ad7-b946-a034aa3ac508
+
+
+Git e versionamento
+Este é um conhecimento MUITO subestimado, e afirmo que o quanto antes adquirir essa habilidade mais rapidamente estará preparado(a) para ambientes profissionais e colaborativos.
+Além disso, já poderá ter seus estudos de Python e outras ferramentas compondo um portifolio.
+
+Onde estudar
+
+Ada Tech: Git e Versionamento
+
+Microsoft Learn: Introdução ao Git
+
+
+Extração de Dados
+Aqui compilo técnicas para extrair dados de diferentes sistemas e aplicações, para que possam ser então levados a um ambiente onde serão transformados e disponibilizados.
+
+Sistemas diferentes apresentam formas diferentes de extração, seguem algumas das mais comuns e sugestões de estudos:
+
+Bancos de Dados Relacionais
+Tente extrair dados utilizando Python que já estudou, e salve os arquivos, em formato CSV, em um sistema de arquivos qualquer.
+
+Bibliotecas como SQL Alchemy e conectores podem te ajudar.
+
+APIs
+Muitos sistemas e aplicações lhe disponibilizarão dados através de APIs. Mais uma vez pode utilizar apenas python, tendo Requests como grande aliado.
+
+Para praticar, pode utilizar fontes de dados públicas governamentais, ou redes sociais como Instagram, LinkedIn e Discord.
+
+Onde estudar
+
+Ada Tech: API Rest
+
+Computação em Nuvem
+
+Computação em nuvem é uma realidade para empresas dos mais variados portes. Não conseguiria pensar nesse roadmap sem uma indicação para que estude o tema. 
+Há três grandes players nesse mercado: AWS, Azure e GCP; sugiro que comece por algum deles pela maior quantidade de oportunidades.
+
+Costumo indicar aos meus alunos que, se estiverem em transição de carreira, com acesso a um deles na empresa atual, que seja o escolhido; dessa forma, terão mais facilidade de testar os produtos e de aplicar conhecimento adquirido. Todos oferecem formas gratuitas para degustação.
+
+Minha sugestão aqui é que use ao menos as ferramentas de armazenamento de dados para guardar os frutos de suas extrações.
+
+Onde estudar
+
+Ada Tech: Introdução a Cloud Computing
+
+Microsoft learning path das certificações: Fundamentos do Microsoft Azure e Fundamentos de Dados do Microsoft Azure.
+
+AWS: Treinamento de Cloud Practitioner; Dan Resende e Marilia Brito.
+
+GCP: Google Cloud Learning Plan
+
+Orquestração
+Se já está criando códigos para extrair dados, é uma excelente escolha orquestrá-los! 
+Existem muitas ferramentas que podem cumprir esse papel de maestrina, tanto para agendar suas tarefas, quanto para criar relações e dependências entre elas.
+
+Seguem algumas indicações:
+
+Apache Airflow: a solução de orquestração open-source mais popular. Recomendo que siga Marc Lamberti, sempre produz muito conteúdo relacionado.
+
+Azure Data Factory: com ele poderá não apenas orquestrar fluxos, como também realizar extrações. Consulte o curso Integração de dados em escala com o 
+Azure Data Factory ou o pipeline Azure Synapse.
+
+Arquitetura de Dados
+É fundamental que, ao menos conceitualmente, esteja familiarizado com termos como:
+
+Data Warehouse: estude sobre modelagem star schema. Caso queira se aprofundar, conheça os trabalhos de Ralph Kimball e Bill Inmon.
+
+Data Lake e Data Lakehouse: estude sobre arquitetura em camadas, pois é muito importante que entenda o papel de cada uma, e se familiarize com formatos de arquivos comuns em Big Data como Parquet. A arquitetura medallion pode ser um ótimo ponto de partida.
+
+Transformação de Dados
+A necessidade de transformar dados, seja entre camadas de um data lake, ou para inserir em um Data Warehouse mais tradicional, 
+compõe a rotina de um engenheiro de dados. Tais tarefas podem ser realizadas com linguagens já citadas como Python, e bibliotecas como Pandas, e SQL, e aqui indico dbt-core.
+
+Entretanto, é possível que em cenários com grande volumetria precise de mais poder computacional, recorrendo a clusters onde múltiplos computadores são conectados para realizar 
+tarefas. Neste caso, Apache Spark pode ser uma ótima opção tanto para ser explorada de forma open source, quanto através da plataforma Databricks que possui uma versão community.
+
+Streaming e mensageria
+A demanda por consumo e disponibilização de dados em tempo real, embora superestimada devida a falta de profissionais de negócio prontos para agir em janelas de tempo tão curtas
+na maioria das empresas, está inegavelmente crescendo. Partindo do pressuposto que já explorou cargas em lotes, é chegado o momento de se aventurar pelo streaming de dados, e com 
+ele conhecer ferramentas de mensageria muito comuns na comunicação entre sistemas.
+
+Se estiver indo seguindo uma linha open-source, o Apache Kafka é a opção mais difundida. Caso esteja utilizando produtos nativos de alguma cloud, avalie seu catálogo e encontrará soluções gerenciadas como o Amazon Kinesis ou MSK na AWS, e Azure Event Hubs e Stream Analytics na Microsoft Azure.
+
+Para mensageria e filas, dê uma olhada no RabbitMQ que pode ser facilmente manipulado em Python através de uma biblioteca de nome engraçado, ou Amazon SQS seguindo a linha de ferramentas nativas de provedores de cloud computing.
+
+Onde estudar
+
+Microsoft Learn: **Implementar uma solução de streaming de dados com o Azure Stream Analytics e **Explorar Hubs de Eventos do Azure.
+
+AWS: Send Messages Between Distributed Applications
+
+Portifolio
+Através do Github pode disponibilizar todos seus projetos e estudos como portifolio em um repositório. Estes projetos podem envolver extrair dados de uma API e transformar ao longo de camadas de um data lake em alguma cloud tendo tudo orquestrado pelo airflow. Pode também, se preferir, não utilizar ferramentas open source e ter um projeto baseado em Databricks, ou totalmente desenvolvido com ferramentas de alguma cloud. Todas essas ferramentas se conectam com o git e vão lhe trazer muito aprendizado.
+
+Se inscreva para receber novos artigos!
+
+Type your email...
+Subscribe
+Próximos passos
+Há sempre novas bibliotecas de python para estudar, além de uma infinidade de ferramentas interessantes no mercado. É muito difícil ter tempo disponível para tudo, por isso ao longo da minha carreira fui direcionando meus estudos para o que acreditava ser capaz de aplicar na minha rotina mais facilmente, e te aconselho a fazer o mesmo.
+
+Sobre conceitos, avalie o seguinte:
+
+Extração de dados por Web Scraping (Beautiful Soup e Selenium);
+
+Extração de dados de dispositivos IoT;
+
+Governança de dados (catálogo de dados, dicionário de dados, line age, LGPD);
+
+Qualidade de dados (Great Expectations, Soda, Deequ);
+
+Test Driven Development (TDD);
+
+Domain Driven Design (DDD) e Data Mesh (Zhamak Dehghani)
+
+Certificações
+Aqui vai uma lista de certificações dos principais players do mercado. Podem te abrir muitas portas, mas avalie o investimento com a devida calma.
+
+Esteja sempre atento as redes oficiais dessas empresas e parceiras, pois vouchers são comuns.
+
+Microsoft Azure
+
+AZ-900: Fundamentos do Microsoft Azure
+
+DP-900: Fundamentos de dados do Microsoft Azure
+
+DP-203: Engenharia de dados no Microsoft Azure
+
+DP-600: Implementar soluções de análise usando o Microsoft Fabric
+
+AWS
+
+AWS Certified Cloud Practitioner
+
+AWS Certified Data Engineer - Associate
+
+GCP
+
+Professional Data Engineer
+
+Databricks
+
+Databricks Lakehouse Fundamentals
+
+Databricks Data Engineer Associate - Escrevi um post sobre como me preparei para ela.
+
+Databricks Certified Data Engineer Professional
+
+Databricks Associate Developer for Apache Spark
+
+Snowflake
+
+Advanced Data Engineer
+
+Airflow
+
+Airflow Fundamentals
+
+Conclusão
+Te desejo excelentes estudos e resultados em 2024.
+
+Vai com calma, e explore novos produtos e conceitos apenas conforme a necessidade, não tente tudo o que está ai de uma só vez!
+
+O segredo reside na sua capacidade de aplicar o que aprendeu e transformar em valor. Tecnologia é apenas o meio, não o fim.

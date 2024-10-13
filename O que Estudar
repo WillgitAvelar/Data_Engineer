@@ -1,0 +1,30 @@
+Estudos: https://matheusdomingos.substack.com/p/roadmap-engenharia-de-dados-2024?utm_medium=email
+
+Curso Lógica Pura: https://blog.geekhunter.com.br/como-aprender-logica-de-programacao-guia/ Pesquisar mais
+Introdução ao Python: https://comunidade.ada.tech/cursos/ad77ffa3-6dde-4efb-9e0d-3b14e60b097b
+Microsoft Learn:  https://learn.microsoft.com/pt-br/training/paths/beginner-python/
+Data Science Academy: https://www.datascienceacademy.com.br/course/fundamentos-de-linguagem-python-para-analise-de-dados-e-data-science
+Banco de Dados:  https://comunidade.ada.tech/cursos/e82b3eb3-e58e-4ad7-b946-a034aa3ac508
+Git e versionamento: https://www.udemy.com/course/git-e-github-do-zero-ao-avancado/learn/lecture/26273948?start=15#overview
+API Rest: Pesquisar sobre
+
+Computação em Nuvem: 
+Introdução a Cloud Computing: https://comunidade.ada.tech/cursos/3965be21-6b4f-4593-a1bf-54f83f90dd1f
+Microsoft learning path das certificações: https://learn.microsoft.com/pt-br/credentials/certifications/azure-fundamentals/?practice-assessment-type=certification
+Microsoft learning path das certificações: https://learn.microsoft.com/pt-br/credentials/certifications/azure-data-fundamentals/?practice-assessment-type=certification
+AWS: https://aws.amazon.com/pt/training/learn-about/cloud-practitioner/?nc1=h_ls
+GCP  Google Cloud Learning Plan:  https://www.cloudskillsboost.google/paths/8
+
+
+
+Orquestração
+Apache Airflow: a solução de orquestração open-source mais popular. Recomendo que siga Marc Lamberti, sempre produz muito conteúdo relacionado.
+Data Warehouse: estude sobre modelagem star schema  
+Data Lake e Data Lakehouse: estude sobre arquitetura em camadas
+Transformação de Dados: Tais tarefas podem ser realizadas com linguagens já citadas como Python, e bibliotecas como Pandas, e SQL, e aqui indico dbt-core
+
+
+
+Streaming e mensageria:
+Microsoft Learn: https://learn.microsoft.com/pt-br/training/paths/implement-data-streaming-with-asa/
+AWS: https://aws.amazon.com/pt/getting-started/hands-on/send-messages-distributed-applications/?nc1=h_ls
